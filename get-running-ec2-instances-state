@@ -83,7 +83,7 @@ def main(event, context, **kwargs):
     main function
 
     """
-    regionName=event['currentIntent']['slots']['Aws_Region']
+    regionName=event['currentIntent']['slots']['AwsRegion']
     print regionName
     awsRegions = [
         "us-east-2",
